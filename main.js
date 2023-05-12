@@ -51,6 +51,6 @@ const loadVideo = async (numberVideos)=> {
     console.log(error)
   }
 }
-window.location.pathname == "/public/index.html"
+window.location.pathname == "/public/index.html" || window.location.pathname == "/landing-sofia/"
   ?loadVideo(4)
   :loadVideo(50)
